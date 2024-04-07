@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%
+}
+main{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.barra-gris{
+    background-color: rgb(95, 94, 94);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.second-list{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+    
+}
+.second-list > li{
+    border-bottom: solid 1px white;
+    background-color: rgb(95, 94, 94);
+    transform: translateY(20px);
+    text-align: center;
+    width: 120px;
+    padding: 20px;
+    margin-top: 0;
+    
+}
+.second-list > li:hover{
+    background-color: orangered;
+}
+.list-item:hover > .second-list{
+    display: block;
+} 
+.tird-list{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+}
+.tird-list > li{
+    border-bottom: solid 1px white;
+    background-color: rgb(95, 94, 94);
+    transform: translateY(20px);
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    margin-top: 0;
+    
+}
+.tird-list > li:hover{
+    background-color: orangered;
+}
+.list-item:hover > .tird-list{
+    display: block;
+}
+
+.four-list{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+}
+.four-list > li{
+    border-bottom: solid 1px white;
+    background-color: rgb(95, 94, 94);
+    transform: translateY(20px);
+    text-align: center;
+    width: 195px;
+    padding: 20px;
+    margin-top: 0;
+    
+}
+.four-list > li:hover{
+    background-color: orangered;
+}
+.list-item:hover > .four-list{
+    display: block;
+}
+
+.logo > img{
+    height: 90px;
+    width: 200px;
+}
+button{
+    padding: 10px;
+    margin: -15px 5px 0 5px;
+    border: none;
+    background-color: white;
+    color: rgb(95, 94, 94);
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.botons-line2{
+   margin-bottom: 20px;
+   margin-top: 10px;
+}
+
+.orange-bar{
+    background-color: orangered;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.orange-bar > a{
+    color: white;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.titulo1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pulpito{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pulpito > img{
+    width: 100px;
+    height: 100px;
+}
+.pulpito > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:  rgb(68, 68, 68);
+}
+.WordPress > h1{
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+.WordPress > p{
+    margin-bottom: 10px;
+    font-size: 2.1rem;
+    color:  rgb(68, 68, 68);
+}
+
+.titulo2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.temas{
+    margin: 0 50px 0 50px;
+    width: 400px;
+}
+.temas > img{
+    width: 400px;
+    height: 265px;
+    margin: 10px 0 10px 0; 
+    border-radius: 20px;
+}
+.temas > h1{
+    font-size: 2rem;
+    color: rgb(121, 117, 117);
+}
+.temas > p{
+    font-size: 1.5rem;
+    color: rgb(121, 117, 117);
+}
+.Complementos{
+    margin: 0 50px 0 50px;
+    width: 400px;
+    
+}
+.Complementos > div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.imagen-comple{
+    background-color: rgb(241, 231, 231);
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+.imagen-comple > img {
+    width: 150px;
+    height: 120px;
+}
+.Complementos > h1{
+    font-size: 2rem;
+    color: rgb(121, 117, 117);
+}
+.Complementos > p{
+    font-size: 1.5rem;
+    color: rgb(121, 117, 117);
+}
+
+.titulo3{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.firts-2-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.second-2-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.third-1-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padre-elementos-titulo3{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.padre-elementos-titulo3 > div > h1{
+    text-align: left;
+    font-size: 2.5rem;
+    color:  rgb(82, 79, 79);
+    font-family:Arial, Helvetica, sans-serif
+}
+.padre-elementos-titulo3 > div > p{
+    text-align: left;
+    font-size: 1.5rem;
+    color:  rgb(167, 160, 160);
+    font-family:Arial, Helvetica, sans-serif
+}
+.padre-elementos-titulo3 > img{
+    margin-right: 30px;
+    width: 100px;
+    height: 80px;
+}
+.padre-elementos-titulo3{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    margin-top: 90px;
+    background-color: rgb(81, 200, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer > div > p{
+    margin: 40px 100px 40px 100px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+footer > div > p:first-child{
+    text-decoration: underline;
+}
+footer > img{
+    margin: 40px 100px 40px 100px;
+    width: 300px;
+    height: 300px;    
+}
+.padre-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padre-redes > div{
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+.padre-redes > div > p{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
